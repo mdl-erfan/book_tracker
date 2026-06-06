@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ book.title }}</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static',
+          filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="detail-card">
+
+<h1>{{ book.title }}</h1>
+
+<h3>{{ book.author }}</h3>
+
+<p>Genre: {{ book.genre }}</p>
+
+<p>Status: {{ book.status }}</p>
+
+<p>Rating: {{ book.rating }} / 5</p>
+
+<p>Notes: {{ book.notes }}</p>
+
+<a href="/" class="btn">Back</a>
+
+<button onclick="deleteBook('{{ book.id }}')" class="btn">
+Delete
+</button>
+
+</div>
+
+<script>
+function deleteBook(id) {
+    fetch("/api/books/" + id, {
+        method: "DELETE"
+    })
+    .then(res => res.json())
+    .then(() => window.location.href = "/");
+}
+</script>
+
+</body>
+</html>
