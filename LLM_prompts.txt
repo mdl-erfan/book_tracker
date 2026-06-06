@@ -1,3 +1,7 @@
+LLM Tool: Claude (Anthropic)
+Project: Book Tracker
+Course: k_ADSA_002
+
 Prompts:
 --------
 
