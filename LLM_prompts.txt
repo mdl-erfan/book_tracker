@@ -15,8 +15,6 @@ Prompts:
 
 7. What are HTTP status codes and why do we return 200 for successful GET/PUT/DELETE requests and 201 for successful POST requests in a REST API?
 
-8. How do I use python-dotenv to load environment variables in Flask, and why should the .env file never be pushed to GitHub?
-
 9. What is gunicorn and why is it required as the start command when deploying a Flask application on Render.com instead of using the built-in Flask server?
 
 10. How do I structure a Flask project following Python best practices including virtual environment, requirements.txt, .gitignore, and type hints on route functions?
