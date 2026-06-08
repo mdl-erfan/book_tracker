@@ -1,0 +1,26 @@
+Prompts:
+--------
+
+1. How do I connect a Flask application to MongoDB Atlas using pymongo and load the connection string securely from a .env file?
+
+2. Why do we need to convert MongoDB ObjectId to a string before returning JSON responses, and how does the bson library help with this?
+
+3. What is the difference between a page route that returns an HTML template and an API route that returns JSON in Flask? When should I use each?
+
+4. How do I use the del keyword to remove the _id field from a MongoDB document before passing it to jsonify() to avoid serialization errors?
+
+5. How do I use JavaScript fetch() to send a POST request with JSON data from an HTML form to a Flask API endpoint without reloading the page?
+
+6. How do I implement a DELETE request using JavaScript fetch() in an HTML template to call a Flask API route and redirect the user after deletion?
+
+7. What are HTTP status codes and why do we return 200 for successful GET/PUT/DELETE requests and 201 for successful POST requests in a REST API?
+
+8. How do I use python-dotenv to load environment variables in Flask, and why should the .env file never be pushed to GitHub?
+
+9. What is gunicorn and why is it required as the start command when deploying a Flask application on Render.com instead of using the built-in Flask server?
+
+10. How do I structure a Flask project following Python best practices including virtual environment, requirements.txt, .gitignore, and type hints on route functions?
+
+11. How do I use Object.fromEntries() and FormData() in JavaScript to collect all HTML form field values and send them as a JSON object to a Flask API?
+
+12. What is the purpose of the render.yaml file in a Render.com deployment and how does it define the build command, start command, and environment variables?
